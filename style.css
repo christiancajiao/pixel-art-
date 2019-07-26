@@ -1,0 +1,107 @@
+body {
+    background-color: grey;
+}
+.encabezado {
+    position: relative;
+    width: 10%;
+    height: 5%;
+}
+.workspace {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: white;
+}
+.color-palet {
+    position: relative;
+    width: 80px;
+    left: 0%;
+    margin: 1px;
+}
+.color{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    border-color: black;
+    border-width: 1px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    
+}
+.color:hover {
+    opacity: 0.6;
+}
+#azul {
+    
+    background-color: blue;
+}    
+#verde {
+   
+    background-color: green;
+    
+}
+#rojo {
+   
+    background-color: red;
+    
+}
+#amarillo {
+    
+    background-color: yellow;
+   
+}
+#naranja {
+
+    background-color: orangered;
+    
+}
+#purpura {
+   
+    background-color: purple;
+    
+}
+#blanco {
+   
+    background-color: white;
+    
+}
+#negro {
+    
+    background-color: black;
+    
+}
+#azulclaro {
+    
+    background-color: skyblue;
+  
+}
+#rosa {
+    
+    background-color: palevioletred;
+    
+}
+.gridspace {
+    position: absolute;
+    padding-top: 5%;
+    padding-right: 5%;
+    top: 0%;
+    right: 0%;
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    border: solid, black, 3px;
+}
+.pixel {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #000;
+}
+.pixel:hover {
+    background-color: #000;
+    opacity: 0.2;
+}
