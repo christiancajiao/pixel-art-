@@ -3,12 +3,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixer art</title>
     <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="encabezado">
         <img id="logo" src="img/pixel-art.png">
     </header>
     <main class="workspace">
+        <div class="color-logo1"></div>
+        <div class="color-logo2"></div>
+        <div class="color-logo3"></div>
+        <div class="color-logo4"></div>
+        <span class="texto-logo">Pixel Art</span>
+        <div class="texto-colors">Colors</div>
         <div class="color-palet">
             <div id="rojo" class="color"></div>
             <div id="naranja" class="color"></div>
@@ -20,9 +27,7 @@
             <div id="azulclaro" class="color"></div>
             <div id="blanco" class="color"></div>
             <div id="negro" class="color"></div>
-        </div>
-        <div class="segundapaleta">
-                <div id="gris" class="color"></div>
+            <div id="gris" class="color"></div>
                 <div id="cafe" class="color"></div>
                 <div id="abano" class="color"></div>
                 <div id="verdeamarillo" class="color"></div>
@@ -32,11 +37,10 @@
                 <div id="vinotinto" class="color"></div>
                 <div id="azuloscuro" class="color"></div>
                 <div id="otro" class="color"></div>
+        </div>
 
-        </div>
-        <div id="seleccionado">
-        </div>
-        <button id="reset">Reset</button>
+       <div class="controls">Controls</div>
+        <button id="reset">Reset Canvas</button>
         <div class="gridspace">
                 <div class="pixel"></div>
                 <div class="pixel"></div>
@@ -439,6 +443,12 @@
                 <div class="pixel"></div>
                 <div class="pixel"></div>
         </div>
+        <div class="texto-seleccionado">Color Seleccionado:
+            
+            </div>
+            <div id="seleccionado"></div>
+        </div>
+       
     </main>
     <div id="strobe1"></div>
     <div id="strobe2"></div>
