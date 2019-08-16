@@ -1,0 +1,287 @@
+body {
+    background-color: rgb(211, 211, 211);
+text-align: center;
+}
+
+.workspace {
+    position: relative;
+margin-top: auto;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto; 
+  width: 1024px;
+  height: 765px;
+   background-color: white;
+
+}
+
+.color-palet {
+    position: relative;
+    text-align: center;
+    width: 350px;
+    top: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    left: 5%;
+
+    
+}
+
+.color{
+    position: relative;
+    
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    margin: 5px;
+    border-radius: 3px;
+    border: 2px solid black;
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1em;
+    
+}
+.color:hover {
+    opacity: 0.6;
+}
+#azul {
+    
+    background-color: blue;
+}    
+#verde {
+   
+    background-color: green;
+    
+}
+#rojo {
+   
+    background-color: red;
+    
+}
+#amarillo {
+    
+    background-color: yellow;
+   
+}
+#naranja {
+
+    background-color: orangered;
+    
+}
+#purpura {
+   
+    background-color: purple;
+    
+}
+#blanco {
+   
+    background-color: white;
+    
+}
+#negro {
+    
+    background-color: black;
+    
+}
+#azulclaro {
+    
+    background-color: skyblue;
+  
+}
+#rosa {
+    
+    background-color: palevioletred;
+    
+}
+.gridspace {
+    position: relative;
+    height: 406px;
+    width: 406px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    margin-left: 700px;
+    margin-right: 50px;
+    display: grid;
+    top: -50px;
+    right: 15%;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    
+}
+.pixel {
+    position: relative;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    
+    background-color: white;
+    border: 1px solid rgb(206, 206, 206);
+}
+.pixel:hover {
+    background-color: #000;
+    opacity: 0.2;
+}
+#seleccionado {
+    position: relative;
+    
+    top: -55px;
+    left: 770px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    
+    
+    border-radius: 3px;
+    border: 2px solid black;
+    background-color: rgb(175, 175, 175);
+    
+
+}
+.texto-seleccionado {
+    position: relative;
+    font-family: 'VT323', monospace;
+    font-size: 1.5em;
+    left: 150px;
+   top: -30px;
+ 
+   
+}
+.texto-colors {
+    position: relative;
+    text-align: left;
+    width: 400px;
+    top: 100px;
+    height: 30px;
+    border-bottom: 2px solid black;
+    left: 5%;
+    font-family: 'VT323', monospace;
+    font-size: 1.5em;
+
+}
+.controls {
+    position: relative;
+    text-align: left;
+    top: 200px;
+    left: 5%;
+    width: 400px;
+    height: 30px;
+    border-bottom: 2px solid black;
+    font-family: 'VT323', monospace;
+    font-size: 1.5em;
+}
+#reset {
+    position: relative;
+    top: 200px;
+    left: -40%;
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;  
+    background-color: #3586FF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 0.5;
+    border-radius: 3px;
+}
+#reset:hover {
+    position: relative;
+    top: 200px;
+    left: -40%;
+    width: 100px;
+    height: 30px;  
+    margin-top: 10px;
+    background-color: rgb(17, 41, 77);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 0.5;
+    border-radius: 3px;
+}
+
+
+#gris {
+   
+    background-color: rgb(122, 122, 122);
+    
+}
+#cafe {
+   
+    background-color: rgb(87, 71, 48);
+    
+}
+#abano {
+   
+    background-color: rgb(214, 203, 165);
+    
+}
+#verdeamarillo {
+   
+    background-color: rgb(129, 189, 51);
+    
+}
+#verdeclaro {
+   
+    background-color: rgb(137, 207, 146);
+    
+}
+#lila {
+   
+    background-color: rgb(218, 19, 168);
+    
+}
+#amarillooscuro {
+   
+    background-color: rgb(110, 109, 13);
+    
+}
+#vinotinto {
+   
+    background-color: rgb(65, 16, 14);
+    
+}
+#azuloscuro {
+   
+    background-color: rgb(32, 29, 68);
+    
+}
+#otro {
+   
+    background-color: rgb(32, 207, 178);
+    
+}
+#logo {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 2%;
+    top: 20%;
+}
+.encabezado {
+    position: relative;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    box-shadow: 0px 2px 0px 0px rgb(0, 0, 0, 0.1);
+    width: 1024px;
+    height: 56px;
+}
+.texto-logo {
+    position: absolute;
+    display: inline;
+    
+    width: 32px;
+    height: 22px;
+    left: 7%;
+    top: 10px;
+    font-family: VT323;
+    font-size: 2em;
+    margin: 0;
+    text-overflow: ellipsis; 
+    
+    white-space: nowrap;
+    
+    
+
+}
+
